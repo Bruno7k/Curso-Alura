@@ -5,6 +5,9 @@ import br.com.alura.screenmatch.modelos.Serie;
 import br.com.alura.screenmatch.modelos.Titulo;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
 
 public class mainComListas {
     public static void main(String[] args) {
@@ -30,6 +33,20 @@ public class mainComListas {
             }
         }
 
+        ArrayList<String>buscarPorArtista = new ArrayList<>();
+        buscarPorArtista.add("Adam Sandler");
+        buscarPorArtista.add("Will Smith");
+        buscarPorArtista.add("Dwani Jones");
+        System.out.println(buscarPorArtista);
+
+        Collections.sort(buscarPorArtista);
+        System.out.println(buscarPorArtista);
+
+        Collections.sort(lista);
+        System.out.println(lista);
+
+        lista.sort(Comparator.comparing(Titulo::getAnoDeLancamento));
+        System.out.println("Ordenado por ano de lancamento: " + lista);
 
     }
 }
