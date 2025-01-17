@@ -18,7 +18,8 @@ public class Principal {
     private final String ENDERECO = "https://www.omdbapi.com/?t=";
     private final String API_KEY = "&apikey=9be1c66a";
     private ConsumoApi consumo = new ConsumoApi();
-    private ConverteDados conversor = new ConverteDados();
+
+
 
     public void exibeMenu() {
         System.out.println("Bem vindo ao ScreenMatch");
@@ -103,7 +104,10 @@ public class Principal {
         DoubleSummaryStatistics estatisticas = episodios.stream()
                 .filter(e -> e.getAvaliacao()>0.0)
                 .collect(Collectors.summarizingDouble(Episodios::getAvaliacao));
-        System.out.println(estatisticas);
+        System.out.println("Media: " + estatisticas.getAverage());
+        System.out.println("Maior avaliacao: " + estatisticas.getMax());
+        System.out.println("Menor avaliacao: " + estatisticas.getMin());
+        System.out.println("Quantidade: " + estatisticas.getCount());
     }
 
 }

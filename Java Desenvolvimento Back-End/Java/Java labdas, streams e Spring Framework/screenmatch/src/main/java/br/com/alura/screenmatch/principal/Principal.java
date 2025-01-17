@@ -18,7 +18,8 @@ public class Principal {
     private final String ENDERECO = "https://www.omdbapi.com/?t=";
     private final String API_KEY = "&apikey=9be1c66a";
     private ConsumoApi consumo = new ConsumoApi();
-    private ConverteDados conversor = new ConverteDados();
+
+
 
     public void exibeMenu() {
         System.out.println("Bem vindo ao ScreenMatch");
