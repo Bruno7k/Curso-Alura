@@ -1,3 +1,4 @@
 <h1 align="center"> Trilha completa de carreira Dev Back-End Java </h1>
-https://github.com/user-attachments/assets/f2e1c2b4-dab4-47f6-9970-19e523534044
+![EmakersJr](https://github.com/user-attachments/assets/15b147eb-cf0c-4c67-a542-7b03493208c3)
+
 Repositorio feito para registrar meus estudos na formacao Trilha completa de carreira Dev Back-End Java, fornecido pela Emakers Jr.
