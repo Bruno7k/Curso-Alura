@@ -8,23 +8,11 @@
 
 Repositório feito para registrar meus estudos na formação Trilha completa de carreira Dev Back-End Java, fornecido pela Emakers Jr. Nele vou registrar as aplicações e exercícios que desenvolvi durante todo o curso.
 
-## Tabela de Conteúdos
-1. [Instalação](#instalação)
-2. [Tecnologias Utilizadas](#tecnologias-utilizadas)
-3. [Como Usar](#como-usar)
-4. [Aplicações Desenvolvidas](#aplicações-desenvolvidas)
-5. [Exercícios](#exercícios)
-6. [Contribuição](#contribuição)
-7. [Licença](#licença)
-8. [Contatos](#contatos)
-
 ## Tecnologias Utilizadas
 - Java
 - Spring Boot
 - Hibernate
-- MySQL
-- Maven
-- JUnit
+- PostgreSQL
 
 ## Como Usar
 Para usar este repositório:
