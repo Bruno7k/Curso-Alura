@@ -39,25 +39,25 @@ Repositório destinado ao registro dos meus estudos na formação "Trilha Comple
 
 ## Java
 
-#### **Java aplicando OO**:
+#### 🛠️ **Java aplicando OO**:
 - Aplicar os conceitos de Orientação a Objetos no projeto ScreenMatch;
 - Modelar as abstraçoes a aplicação através de classes, atributos e métodos;
 - Conhecer e utilizar herança como mecanismo de reaproveitamento de código;
 - Trabalhar com polimorfismo para tornar o código do projeto mais flexível;
 - Entender como utilizar interfaces para padronização de métodos.
-#### **Java consumindo API e lidando com erros**: Como consumir APIs externas, tratar erros e lidar com respostas complexas.
+#### 🛠️ **Java consumindo API e lidando com erros**: Como consumir APIs externas, tratar erros e lidar com respostas complexas.
 - Aprender a consumir uma API HTTP em Java;
 - Entender como receber e converter dados no formato JSON;
 - Utilizar a biblioteca externa GSON para fazer serialização e desserialização de dados;
 - Lidar com erros e tratar exceções;
 - Conhecer o pacote java.io para manipulação de arquivos.
-#### **Java criando a sua primeira API**: Desenvolvimento de APIs RESTful utilizando Spring Boot.
+#### 🛠️ **Java criando a sua primeira API**: Desenvolvimento de APIs RESTful utilizando Spring Boot.
 - Conceitos de variáveis;
 - Condicionais;
 - Loops;
 - Leitura de dados no Java;
 - Lógica de programação.
-#### **Java lambdas, streams e Spring Framework**: Exploração de recursos modernos da linguagem e integração com o framework Spring.
+#### 🛠️ **Java lambdas, streams e Spring Framework**: Exploração de recursos modernos da linguagem e integração com o framework Spring.
 - Estrutura de um Projeto Spring;
 - Inferência de tipos no Java;
 - Consumo de API;
@@ -69,14 +69,14 @@ Repositório destinado ao registro dos meus estudos na formação "Trilha Comple
 - Filtragem de Dados;
 - Uso da função peek;
 - Uso do DoubleSummaryStatistics.
-#### **Java listas e coleções de dados**: Manipulação eficiente de listas, conjuntos e mapas em Java.
+#### 🛠️ **Java listas e coleções de dados**: Manipulação eficiente de listas, conjuntos e mapas em Java.
 - Mergulhar mais profundamente em Java, entendendo a hierarquia de classes e métodos;
 - Aprender a representar uma lista de objetos;
 - Conhecer os recursos para manipulação dessa lista, como inclusão, exclusão, ordenação;
 - Fazer casting de objetos e identificar o tipo dos mesmo;
 - Construir os objetos já com valores e com diferentes critérios;
 - Avançar nos estudos e entender novos conceitos primordiais para o desenvolvimento de aplicações back-end.
-#### **Java persistência de dados e consultas Spring Data JPA**: Persistência de dados utilizando JPA e consulta de banco com Spring Data.
+#### 🛠️ **Java persistência de dados e consultas Spring Data JPA**: Persistência de dados utilizando JPA e consulta de banco com Spring Data.
 - Evoluir no projeto Screenmatch, iniciado no primeiro curso da formação, criando um menu com várias opções;
 - Modelar as abstrações da aplicação através de classes, enums, atributos e métodos;
 - Consumir a API do ChatGPT;
