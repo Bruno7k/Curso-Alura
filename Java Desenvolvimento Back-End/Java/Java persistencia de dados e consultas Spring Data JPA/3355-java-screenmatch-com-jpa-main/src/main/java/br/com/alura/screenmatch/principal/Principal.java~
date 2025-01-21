@@ -136,7 +136,7 @@ public class Principal {
                 .sorted(Comparator.comparing(Serie::getGenero))
                 .forEach(System.out::println);
     }
-
+    
     private void buscarSeriePorTitulo() {
         System.out.println("Escolha uma série");
         var nomeSerie = leitura.nextLine();
