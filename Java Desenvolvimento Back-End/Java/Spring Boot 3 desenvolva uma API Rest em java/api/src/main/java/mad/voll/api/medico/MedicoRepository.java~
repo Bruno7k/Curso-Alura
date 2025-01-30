@@ -1,2 +1,0 @@
-package mad.voll.api.medico;public interface MedicoRepository {
-}
