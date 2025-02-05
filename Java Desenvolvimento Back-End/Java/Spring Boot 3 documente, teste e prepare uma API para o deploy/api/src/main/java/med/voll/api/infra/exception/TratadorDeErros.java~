@@ -23,7 +23,7 @@ public class TratadorDeErros {
     }
 
     @ExceptionHandler(ValidacaoException.class)
-    public ResponseEntity tratarErroRegraDeNegocio(ValidacaoException ex) {
+    public ResponseEntity tratarErroRegraDeNegocio(MethodArgumentNotValidException ex) {
         return ResponseEntity.badRequest().body(ex.getMessage());
     }
 
