@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32f83be3-edd1-4356-94ff-e2dfb1c4500f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/boas-praticas-java-testes/src/test/java/br/com/alura/adopet/api/controller/AbrigoControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boas-praticas-java-testes/src/test/java/br/com/alura/adopet/api/controller/AdocaoControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boas-praticas-java-testes/src/test/java/br/com/alura/adopet/api/controller/PetControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boas-praticas-java-testes/src/test/java/br/com/alura/adopet/api/controller/TutorControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boas-praticas-java-testes/src/test/java/br/com/alura/adopet/api/service/AbrigoServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boas-praticas-java-testes/src/test/java/br/com/alura/adopet/api/service/AdocaoServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boas-praticas-java-testes/src/test/java/br/com/alura/adopet/api/service/CalculadoraProbabilidadeAdocaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boas-praticas-java-testes/src/test/java/br/com/alura/adopet/api/validacoes/ValidacaoPetComAdocaoEmAndamentoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boas-praticas-java-testes/src/test/java/br/com/alura/adopet/api/validacoes/ValidacaoPetDisponivelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boas-praticas-java-testes/src/test/java/br/com/alura/adopet/api/validacoes/ValidacaoTutorComAdocaoEmAndamentoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boas-praticas-java-testes/src/test/java/br/com/alura/adopet/api/validacoes/ValidacaoTutorComLimiteDeAdocoesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java reflection/java-reflection/src/main/java/br/com/alura/Endereco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java reflection/java-reflection/src/main/java/br/com/alura/refl/ObjectToJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java reflection/java-reflection/src/main/java/br/com/alura/refl/ObjectToJsonTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java reflection/java-reflection/src/main/java/br/com/alura/refl/Transformator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java reflection/java-reflection/src/test/java/br/com/alura/refl/TransformatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,51 +47,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.AbrigoServiceTest.deveriaCadastrarAbrigoNaoExistente.executor": "Run",
-    "JUnit.AbrigoServiceTest.executor": "Run",
-    "JUnit.AbrigoServiceTest.naoDeveriaCadastrarAbrigoJaExistente.executor": "Run",
-    "JUnit.AdocaoControllerTest.deveriaDevolverCodigo400ParaSolicitacaoComErros.executor": "Run",
-    "JUnit.AdocaoServiceTest.deveriaChamarValidadoresAoSolicitar.executor": "Run",
-    "JUnit.AdocaoServiceTest.deveriaSalvarAdocaoAoSolicitar.executor": "Run",
-    "JUnit.CalculadoraProbabilidadeAdocaoTest.cenario01.executor": "Run",
-    "JUnit.CalculadoraProbabilidadeAdocaoTest.cenario02.executor": "Run",
-    "JUnit.CalculadoraProbabilidadeAdocaoTest.executor": "Run",
-    "JUnit.PetControllerTest.deveriaDevolverCodigo200ParaRequisicaoDeListarTodosPetsDisponiveis.executor": "Run",
-    "JUnit.TutorServiceTest.executor": "Run",
-    "JUnit.ValidacaoPetComAdocaoEmAndamentoTest.deveriaPermitirDoacaoPetSemAdocaoEmAndamento.executor": "Run",
-    "JUnit.ValidacaoPetComAdocaoEmAndamentoTest.naoDeveriaPermitirDoacaoPetComAdocaoEmAndamento.executor": "Run",
-    "JUnit.ValidacaoPetDisponivelTest.naoDeveriaPpermitirDoacaoPet.executor": "Run",
-    "JUnit.ValidacaoPetDisponivelTest.permitirDoacaoPet.executor": "Run",
-    "JUnit.ValidacaoTutorComAdocaoEmAndamentoTest.deveriaPermitirDoacaoTutorsemAdocaoEmAndamento.executor": "Run",
-    "JUnit.ValidacaoTutorComAdocaoEmAndamentoTest.naoDeveriaPermitirDoacaoTutorComAdocaoEmAndamento.executor": "Run",
-    "JUnit.ValidacaoTutorComLimiteDeAdocoesTest.deveriaPermitirDoacaoTutorSemLimiteDeAdocoes.executor": "Run",
-    "JUnit.ValidacaoTutorComLimiteDeAdocoesTest.naoDeveriaPermitirDoacaoTutorComLimiteDeAdocoes.executor": "Run",
-    "JUnit.controller in adopet-api.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Spring Boot.AdopetApiApplication.executor": "Run",
-    "com.codeium.enabled": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Bruno/Documents/Alura/Curso-Alura/Java Desenvolvimento Back-End/Java/Boas práticas em testes com Java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "CodeWithMe",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.AbrigoServiceTest.deveriaCadastrarAbrigoNaoExistente.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AbrigoServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AbrigoServiceTest.naoDeveriaCadastrarAbrigoJaExistente.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdocaoControllerTest.deveriaDevolverCodigo400ParaSolicitacaoComErros.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdocaoServiceTest.deveriaChamarValidadoresAoSolicitar.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdocaoServiceTest.deveriaSalvarAdocaoAoSolicitar.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CalculadoraProbabilidadeAdocaoTest.cenario01.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CalculadoraProbabilidadeAdocaoTest.cenario02.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CalculadoraProbabilidadeAdocaoTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PetControllerTest.deveriaDevolverCodigo200ParaRequisicaoDeListarTodosPetsDisponiveis.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TutorServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ValidacaoPetComAdocaoEmAndamentoTest.deveriaPermitirDoacaoPetSemAdocaoEmAndamento.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ValidacaoPetComAdocaoEmAndamentoTest.naoDeveriaPermitirDoacaoPetComAdocaoEmAndamento.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ValidacaoPetDisponivelTest.naoDeveriaPpermitirDoacaoPet.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ValidacaoPetDisponivelTest.permitirDoacaoPet.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ValidacaoTutorComAdocaoEmAndamentoTest.deveriaPermitirDoacaoTutorsemAdocaoEmAndamento.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ValidacaoTutorComAdocaoEmAndamentoTest.naoDeveriaPermitirDoacaoTutorComAdocaoEmAndamento.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ValidacaoTutorComLimiteDeAdocoesTest.deveriaPermitirDoacaoTutorSemLimiteDeAdocoes.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ValidacaoTutorComLimiteDeAdocoesTest.naoDeveriaPermitirDoacaoTutorComLimiteDeAdocoes.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.controller in adopet-api.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.service in adopet-api.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AdopetApiApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Bruno/Documents/Alura/Curso-Alura/Java Desenvolvimento Back-End/Java/Boas práticas em testes com Java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CodeWithMe&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -106,8 +102,8 @@
       <recent name="br.com.alura.adopet.api.service" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="br.com.alura.adopet.api.controller" />
       <recent name="br.com.alura.adopet.api.service" />
+      <recent name="br.com.alura.adopet.api.controller" />
       <recent name="br.com.alura.adopet.api.validacoes" />
     </key>
   </component>
@@ -209,7 +205,12 @@
       <option name="presentableId" value="Default" />
       <updated>1740055008716</updated>
       <workItem from="1740055009860" duration="8683000" />
-      <workItem from="1740081776249" duration="9602000" />
+      <workItem from="1740081776249" duration="10276000" />
+      <workItem from="1740147656324" duration="11000" />
+      <workItem from="1740317138323" duration="46000" />
+      <workItem from="1740317999099" duration="1591000" />
+      <workItem from="1740399630828" duration="685000" />
+      <workItem from="1740428068385" duration="858000" />
     </task>
     <servers />
   </component>
