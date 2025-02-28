@@ -16,7 +16,7 @@ public class AgendamentoService {
     @Autowired
     private EmailRelatorioGerado enviador;
 
-    @Scheduled(cron = "0 01 19 * * *")
+    @Scheduled(cron = "0 12 23 * * *")
     public void envioEmailAgendado(){
         var estoqueZerado = relatorioService.infoEstoque();
         var faturamento = relatorioService.faturamentoObtido();
