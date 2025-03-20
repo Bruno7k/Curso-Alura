@@ -7,4 +7,8 @@ public interface RepositorioDeUsuario {
     Usuario cadastrarUsuario(Usuario usuario);
 
     List<Usuario> listarTodos();
+
+    Usuario alteraUsuario(String cpf, Usuario usuario);
+
+    void excluiUsuario(String cpf);
 }
